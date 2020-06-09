@@ -17,6 +17,13 @@
   #page-home main{
     align-items: center;
   }
+  #page-search-results main .cards{
+    grid-template-columns: 1fr;
+    margin: 0 50px 0;
+  }
+  #page-search-results main .cards img{
+    height: 300px;
+  }
 }
 @media(min-width: 1700px){
   #page-home{
