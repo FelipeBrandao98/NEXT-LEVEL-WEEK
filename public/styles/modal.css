@@ -73,3 +73,16 @@
   transition: 400ms;
   cursor: pointer;
 }
+#modal.point .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#modal.point h1{
+  color: white;
+  margin-top: 32px;
+}
+#modal.point img{
+  width: 200px;
+}
